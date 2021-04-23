@@ -1,2 +1,8 @@
 image:
   file: .gitpod.Dockerfile
+tasks:
+  - init: npm install
+    command: npm start -- --config-merge "{:devtools {:devtools-url \"$(gp url 9630)\"}}"
+ports:
+  - port: 9000
+  - port: 9630
