@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "shadow-cljs watch app",
+    "start-pod": "npm start -- --config-merge \"{:devtools {:devtools-url \\\"$(gp url 9630)\\\"}}\"",
     "compile": "shadow-cljs compile app",
     "repl": "shadow-cljs cljs-repl app"
   },
