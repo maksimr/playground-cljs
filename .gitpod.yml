@@ -1,7 +1,7 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: npm install
+  - init: npm ci
     command: npm run start-pod
 ports:
   - port: 9000
