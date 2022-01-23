@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/maksimr/playground-clj#readme",
   "devDependencies": {
-    "shadow-cljs": "2.12.5"
+    "shadow-cljs": "2.16.12"
   }
 }
