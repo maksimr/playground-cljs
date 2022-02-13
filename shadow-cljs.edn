@@ -3,4 +3,5 @@
  :builds       {:app {:target     :browser
                       :output-dir "public/js"
                       :asset-path "js"
+                      :build-hooks [(script.build/setup)]
                       :modules    {:main {:entries [hello-world.core]}}}}}
