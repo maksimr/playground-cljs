@@ -9,6 +9,7 @@
   {:shadow.build/stage :configure}
   [build-state]
   (if (not-empty (System/getenv "GITPOD_WORKSPACE_URL"))
-    (assoc-in build-state [:devtools :devtools-url]
+    (assoc-in build-state
+              [:compiler-options :closure-defines 'shadow.cljs.devtools.client.env/devtools-url]
               (trim (:out (shell/sh "gp" "url" "9630"))))
     build-state))
