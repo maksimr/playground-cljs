@@ -4,7 +4,7 @@
    [clojure.java.shell :as shell]))
 
 (defn setup
-  "Gitpod generate URL for open port so we should
+  "GitPod generates URL for open port, so we should
    use this URL to properly forward connection from browser to the server"
   {:shadow.build/stage :configure}
   [build-state]
