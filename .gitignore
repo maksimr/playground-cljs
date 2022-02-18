@@ -12,6 +12,7 @@ public/js
 
 # User-specific stuff
 playground-clj.iml
+playground-cljs.iml
 .idea/**
 .idea/**/workspace.xml
 .idea/**/tasks.xml
