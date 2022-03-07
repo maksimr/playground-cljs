@@ -1,2 +1,2 @@
-{:deps    {thheller/shadow-cljs {:mvn/version "2.17.7"}}
+{:deps    {thheller/shadow-cljs {:mvn/version "2.17.8"}}
  :aliases {}}
