@@ -1,4 +1,4 @@
-(ns script.build
+(ns build-hooks
   (:require
    [clojure.string :refer [trim]]
    [clojure.java.shell :as shell]))
