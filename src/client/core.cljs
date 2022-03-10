@@ -1,4 +1,4 @@
-(ns hello-world.core)
+(ns client.core)
 
 (defn -main [] (set!
                 (.-innerText
