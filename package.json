@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "shadow-cljs watch app",
-    "compile": "shadow-cljs compile app",
-    "repl": "shadow-cljs cljs-repl app"
+    "start": "shadow-cljs watch client",
+    "compile": "shadow-cljs compile client",
+    "repl": "shadow-cljs cljs-repl client"
   },
   "repository": {
     "type": "git",

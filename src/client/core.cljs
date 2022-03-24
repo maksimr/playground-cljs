@@ -1,8 +1,9 @@
 (ns client.core)
 
-(defn -main [] (set!
-                (.-innerText
-                 (js/document.getElementById "app"))
-                "Hello World!"))
+(defn -main []
+  (set!
+   (.-innerText
+    (js/document.getElementById "app"))
+   "Hello World!"))
 
 (-main)
