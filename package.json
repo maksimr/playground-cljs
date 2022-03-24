@@ -6,7 +6,11 @@
   "scripts": {
     "start": "shadow-cljs watch client",
     "compile": "shadow-cljs compile client",
-    "repl": "shadow-cljs cljs-repl client"
+    "repl": "shadow-cljs cljs-repl client",
+    "start:server": "shadow-cljs watch server",
+    "compile:server": "shadow-cljs compile server",
+    "repl:server": "shadow-cljs node-repl server",
+    "run:server": "node public/js/server.js"
   },
   "repository": {
     "type": "git",
