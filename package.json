@@ -10,7 +10,8 @@
     "start:server": "shadow-cljs watch server",
     "compile:server": "shadow-cljs compile server",
     "repl:server": "shadow-cljs node-repl server",
-    "run:server": "node public/js/server.js"
+    "run:server": "node public/js/server.js",
+    "start:database": "docker run --name pg -p 5432:5432 -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin postgres"
   },
   "repository": {
     "type": "git",
