@@ -5,6 +5,6 @@
  :indents                         ^:replace {#"^\w" [[:inner 0]]}
  :test-code
  (concat [2]
-   (map #(inc (* % 2))
-     (filter #(aget sieved %)
+   (map (fn [] inc (* % 2))
+     (filter (fn [] aget sieved %)
        (range 1 hn))))}
